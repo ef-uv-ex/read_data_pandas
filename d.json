@@ -1,0 +1,364 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "xscd-kanq",
+      "name" : "Fleet Fuel Consumption",
+      "assetType" : "dataset",
+      "attribution" : "Montgomery County, MD",
+      "averageRating" : 0,
+      "category" : "Government",
+      "createdAt" : 1524613138,
+      "description" : "This dataset contains a list of Montgomery County and Public fuel consumption by fuel types based on Fuel Transactions for 180 days prior to published date.\r\nUpdate Frequency : Semi-Annually",
+      "displayType" : "table",
+      "downloadCount" : 806,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "iconUrl" : "fileId:c2bf546e-ff47-4c5c-a311-fbb7bf54711e",
+      "indexUpdatedAt" : 1553104489,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 28880613,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1527107368,
+      "publicationGroup" : 15062471,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1625135284,
+      "rowsUpdatedBy" : "ajn4-zy65",
+      "tableId" : 15219961,
+      "totalTimesRated" : 0,
+      "viewCount" : 309,
+      "viewLastModified" : 1527107368,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1556129502,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 1046070,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1556129502,
+        "workflowId" : 2274,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "ajn4-zy65",
+          "displayName" : "MCG ESB Service"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 360747030,
+        "name" : "Report Month/Year",
+        "dataTypeName" : "calendar_date",
+        "description" : "Month/Year",
+        "fieldName" : "reportmonth",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 65179719,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "2021-06-01T00:00:00.000",
+          "non_null" : "24",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2021-04-01T00:00:00.000",
+            "count" : "4"
+          }, {
+            "item" : "2021-01-01T00:00:00.000",
+            "count" : "4"
+          }, {
+            "item" : "2021-06-01T00:00:00.000",
+            "count" : "4"
+          }, {
+            "item" : "2021-03-01T00:00:00.000",
+            "count" : "4"
+          }, {
+            "item" : "2021-05-01T00:00:00.000",
+            "count" : "4"
+          }, {
+            "item" : "2021-02-01T00:00:00.000",
+            "count" : "4"
+          } ],
+          "smallest" : "2021-01-01T00:00:00.000",
+          "not_null" : "24",
+          "cardinality" : "6"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "right"
+        }
+      }, {
+        "id" : 360747031,
+        "name" : "Fuel Type",
+        "dataTypeName" : "text",
+        "description" : "Fuel Type. CNG is Compressed Natural Gas.\n",
+        "fieldName" : "fuel_type",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 64080427,
+        "width" : 520,
+        "cachedContents" : {
+          "largest" : "UNLEADED",
+          "non_null" : "24",
+          "null" : "0",
+          "top" : [ {
+            "item" : "DIESEL",
+            "count" : "6"
+          }, {
+            "item" : "ETHANOL",
+            "count" : "6"
+          }, {
+            "item" : "UNLEADED",
+            "count" : "6"
+          }, {
+            "item" : "COMPRESSED NATURAL GAS (CNG)",
+            "count" : "6"
+          } ],
+          "smallest" : "COMPRESSED NATURAL GAS (CNG)",
+          "not_null" : "24",
+          "cardinality" : "4"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 360747032,
+        "name" : "Fuel Quantity (In Gallons)",
+        "dataTypeName" : "number",
+        "description" : "Fuel Quantity measure is in gallons.",
+        "fieldName" : "fuel_quantity",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 64080428,
+        "width" : 1208,
+        "cachedContents" : {
+          "largest" : "225468.694",
+          "non_null" : "24",
+          "average" : "141255.1246666667",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1446.17",
+            "count" : "1"
+          }, {
+            "item" : "209121.267",
+            "count" : "1"
+          }, {
+            "item" : "159857.353",
+            "count" : "1"
+          }, {
+            "item" : "105579.36",
+            "count" : "1"
+          }, {
+            "item" : "210323.121",
+            "count" : "1"
+          }, {
+            "item" : "159124.808",
+            "count" : "1"
+          }, {
+            "item" : "210774.32",
+            "count" : "1"
+          }, {
+            "item" : "103917.17",
+            "count" : "1"
+          }, {
+            "item" : "1564.51",
+            "count" : "1"
+          }, {
+            "item" : "157478.989",
+            "count" : "1"
+          }, {
+            "item" : "1215.54",
+            "count" : "1"
+          }, {
+            "item" : "1396.35",
+            "count" : "1"
+          }, {
+            "item" : "101901.08",
+            "count" : "1"
+          }, {
+            "item" : "225468.694",
+            "count" : "1"
+          }, {
+            "item" : "149338.633",
+            "count" : "1"
+          }, {
+            "item" : "107348.92",
+            "count" : "1"
+          }, {
+            "item" : "157493.188",
+            "count" : "1"
+          }, {
+            "item" : "204191.856",
+            "count" : "1"
+          }, {
+            "item" : "103748.05",
+            "count" : "1"
+          }, {
+            "item" : "213080.816",
+            "count" : "1"
+          } ],
+          "smallest" : "1215.54",
+          "not_null" : "24",
+          "sum" : "3390122.992",
+          "cardinality" : "24"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "reportmonth",
+            "ascending" : false
+          } ]
+        },
+        "custom_fields" : {
+          "Dataset Information" : {
+            "Departments" : "General Services, Department of",
+            "Update Frequency" : "Semi-Annually"
+          }
+        },
+        "rowLabel" : "",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "ajn4-zy65",
+        "displayName" : "MCG ESB Service",
+        "screenName" : "MCG ESB Service",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ajn4-zy65",
+        "displayName" : "MCG ESB Service",
+        "screenName" : "MCG ESB Service",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "vehicle", "automobile", "fleet", "fuel", "consumption" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-zpi8~g8w8_ha6j", "00000000-0000-0000-21B9-2D748413D8E6", 0, 1625135284, null, 1625135284, null, "{ }", "2021-04-01T00:00:00", "COMPRESSED NATURAL GAS (CNG)", "103917.17" ]
+, [ "row-g776-syaj~xjk4", "00000000-0000-0000-77ED-60199D00829F", 0, 1625135284, null, 1625135284, null, "{ }", "2021-03-01T00:00:00", "COMPRESSED NATURAL GAS (CNG)", "107348.92" ]
+, [ "row-57rh~vvkw~kz58", "00000000-0000-0000-EC85-DFCF4C3AA64F", 0, 1625135284, null, 1625135284, null, "{ }", "2021-02-01T00:00:00", "COMPRESSED NATURAL GAS (CNG)", "103748.05" ]
+, [ "row-tuu6-fvva~ufv9", "00000000-0000-0000-2E75-37DC23796DD9", 0, 1625135284, null, 1625135284, null, "{ }", "2021-01-01T00:00:00", "UNLEADED", "159857.353" ]
+, [ "row-tued_rm7d-n3re", "00000000-0000-0000-5C4E-2C9F6FD16F89", 0, 1625135284, null, 1625135284, null, "{ }", "2021-04-01T00:00:00", "UNLEADED", "157478.989" ]
+, [ "row-xtiu~7mk3.kdfk", "00000000-0000-0000-C8CC-A806505EF481", 0, 1625135284, null, 1625135284, null, "{ }", "2021-06-01T00:00:00", "ETHANOL", "1647.29" ]
+, [ "row-yh5e~x7n3_wfcw", "00000000-0000-0000-8B06-93DF9C51CE6E", 0, 1625135284, null, 1625135284, null, "{ }", "2021-04-01T00:00:00", "ETHANOL", "1564.51" ]
+, [ "row-cyxn.5y43~c68z", "00000000-0000-0000-B6D4-E46C924A9C1D", 0, 1625135284, null, 1625135284, null, "{ }", "2021-04-01T00:00:00", "DIESEL", "204191.856" ]
+, [ "row-c8m4_dwuq~7wxe", "00000000-0000-0000-2CF1-71FD5351F3DA", 0, 1625135284, null, 1625135284, null, "{ }", "2021-03-01T00:00:00", "ETHANOL", "1446.17" ]
+, [ "row-tgjd~27ng-gfr8", "00000000-0000-0000-FB68-8496D906EBC1", 0, 1625135284, null, 1625135284, null, "{ }", "2021-05-01T00:00:00", "COMPRESSED NATURAL GAS (CNG)", "105847.4" ]
+, [ "row-j6yq~kgkd-fjpc", "00000000-0000-0000-3B40-01CF6304940E", 0, 1625135284, null, 1625135284, null, "{ }", "2021-06-01T00:00:00", "DIESEL", "210774.32" ]
+, [ "row-3e7d~wz74.huz5", "00000000-0000-0000-F61A-466061A2DB74", 0, 1625135284, null, 1625135284, null, "{ }", "2021-06-01T00:00:00", "UNLEADED", "157493.188" ]
+, [ "row-id8a~bme7~fav2", "00000000-0000-0000-8AB4-FCB02AD2E7D9", 0, 1625135284, null, 1625135284, null, "{ }", "2021-01-01T00:00:00", "COMPRESSED NATURAL GAS (CNG)", "105579.36" ]
+, [ "row-nb2f_9y6h.akxx", "00000000-0000-0000-86A0-3509B26B8B90", 0, 1625135284, null, 1625135284, null, "{ }", "2021-03-01T00:00:00", "UNLEADED", "164030.759" ]
+, [ "row-yye4_ihzz.2kez", "00000000-0000-0000-6CB5-8DD29F12918D", 0, 1625135284, null, 1625135284, null, "{ }", "2021-06-01T00:00:00", "COMPRESSED NATURAL GAS (CNG)", "101901.08" ]
+, [ "row-353h~jiab_xce5", "00000000-0000-0000-499B-4BAD4AEE8AF0", 0, 1625135284, null, 1625135284, null, "{ }", "2021-05-01T00:00:00", "UNLEADED", "159124.808" ]
+, [ "row-6r6s~cr6p-5mny", "00000000-0000-0000-71E2-43B3F2C00E3D", 0, 1625135284, null, 1625135284, null, "{ }", "2021-01-01T00:00:00", "DIESEL", "213080.816" ]
+, [ "row-edve.bi8e-9gjw", "00000000-0000-0000-7998-E9E47747EE5A", 0, 1625135284, null, 1625135284, null, "{ }", "2021-01-01T00:00:00", "ETHANOL", "1396.35" ]
+, [ "row-udim-nauk_kzav", "00000000-0000-0000-D413-3B587304D22F", 0, 1625135284, null, 1625135284, null, "{ }", "2021-05-01T00:00:00", "ETHANOL", "1215.54" ]
+, [ "row-6vuk-9b2k~zyt4", "00000000-0000-0000-3B42-65EE0581383F", 0, 1625135284, null, 1625135284, null, "{ }", "2021-02-01T00:00:00", "ETHANOL", "1283.96" ]
+, [ "row-43mr.fgbc~e38q", "00000000-0000-0000-E549-6D553717B93C", 0, 1625135284, null, 1625135284, null, "{ }", "2021-02-01T00:00:00", "DIESEL", "225468.694" ]
+, [ "row-n8xa.zai6.hj98", "00000000-0000-0000-EB27-BD1471B6B729", 0, 1625135284, null, 1625135284, null, "{ }", "2021-03-01T00:00:00", "DIESEL", "209121.267" ]
+, [ "row-yews_max6-i3ws", "00000000-0000-0000-A04D-E2C83C52392B", 0, 1625135284, null, 1625135284, null, "{ }", "2021-02-01T00:00:00", "UNLEADED", "149338.633" ]
+, [ "row-q6zx~vuqq-iue2", "00000000-0000-0000-B369-152F6F586306", 0, 1625135284, null, 1625135284, null, "{ }", "2021-05-01T00:00:00", "DIESEL", "210323.121" ]
+ ]
+}
